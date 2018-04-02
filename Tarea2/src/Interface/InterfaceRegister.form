@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="title" type="java.lang.String" value="Registro de Veh&#xed;culos "/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbl_year" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lbl_km" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_american" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="chb_americano" min="-2" max="-2" attributes="0"/>
+                          <Component id="tfd_km" min="-2" pref="122" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+                      <Component id="btn_ingresarVehiculo" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="250" max="-2" attributes="0"/>
+                      <Component id="btn_actualizaSerie" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="228" max="-2" attributes="0"/>
+                      <Component id="btn_deleteV" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="155" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lbl_name" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="tfd_year" pref="130" max="32767" attributes="0"/>
+                  <Component id="tfd_name" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbl_actualizaSerie" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lb_updateatribute" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl_newReg" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="tfd_newReg" min="-2" pref="75" max="-2" attributes="0"/>
+                  <Component id="tfd_actualizaSerie" min="-2" pref="79" max="-2" attributes="0"/>
+                  <Component id="tfd_serial" min="-2" pref="88" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+              <Component id="lbl_deleteV" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="tfd_deleteV" min="-2" pref="65" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lbl_name" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tfd_name" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_actualizaSerie" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="tfd_serial" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_deleteV" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="tfd_deleteV" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lbl_year" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tfd_year" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lbl_km" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tfd_km" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_newReg" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tfd_newReg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lb_updateatribute" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tfd_actualizaSerie" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="122" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="chb_americano" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl_american" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btn_ingresarVehiculo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btn_actualizaSerie" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btn_deleteV" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="262" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lbl_name">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Marca"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_year">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="A&#xf1;o"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_km">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kilometraje"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfd_name">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfd_year">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tfd_yearActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfd_km">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_american">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Americano"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chb_americano">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="chb_americanoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_ingresarVehiculo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ingresar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_ingresarVehiculoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_actualizaSerie">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Serie del veh&#xed;culo que desea modificar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfd_serial">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lb_updateatribute">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Atributo que desea modificar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfd_actualizaSerie">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value="Actualizar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tfd_actualizaSerieActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_newReg">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ingrese el nuevo dato"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfd_newReg">
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_actualizaSerie">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Actualizar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_actualizaSerieActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_deleteV">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Serie del veh&#xed;culo que desea borrar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfd_deleteV">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value="Borrar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tfd_deleteVActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_deleteV">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Borrar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_deleteVActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
